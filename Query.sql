@@ -25,3 +25,5 @@ SELECT pname, dname, fname, minit, lname
 SELECT *
 	FROM	employee, project, department, works_on
 	WHERE	(dnumber = dnum) AND (essn = ssn) AND (pnumber = pno);
+--For every department located in Stafford, Houston, Sugarland, and Atlanta,find the average, max and min salary of all employees
+SELECT AVG(salary)
